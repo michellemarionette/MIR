@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="wnC2Rw" name="BACF" projectType="guiapp" useAppConfig="0"
+<JUCERPROJECT id="gKvowH" name="BACF" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
-  <MAINGROUP id="MOH1Ah" name="BACF">
-    <GROUP id="{7034417F-E066-9C8A-23C5-4650B2CFB3F7}" name="Source">
-      <FILE id="IChiTu" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
-      <FILE id="ZFSA2i" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
-      <FILE id="ktTmxL" name="MainComponent.cpp" compile="1" resource="0"
-            file="Source/MainComponent.cpp"/>
+  <MAINGROUP id="eUWoaj" name="BACF">
+    <GROUP id="{AD2F85C7-C87C-3C60-E6E5-A97BF0E30571}" name="Source">
+      <FILE id="XpE6lz" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="FMAVVx" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="hClPX4" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="DM5wqT" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
   </MAINGROUP>
-  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
@@ -21,6 +24,7 @@
         <MODULEPATH id="juce_audio_basics" path="../../../../../../Applications/JUCE/modules"/>
         <MODULEPATH id="juce_audio_devices" path="../../../../../../Applications/JUCE/modules"/>
         <MODULEPATH id="juce_audio_formats" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../Applications/JUCE/modules"/>
         <MODULEPATH id="juce_audio_processors" path="../../../../../../Applications/JUCE/modules"/>
         <MODULEPATH id="juce_audio_utils" path="../../../../../../Applications/JUCE/modules"/>
         <MODULEPATH id="juce_core" path="../../../../../../Applications/JUCE/modules"/>
@@ -36,6 +40,8 @@
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
     <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
