@@ -2,3 +2,5 @@
 /.ipynb_checkpoints
 pitch_detection/BACF/JuceLibraryCode
 pitch_detection/BACF/Builds
+pitch_detection/.DS_Store
+.gitignore

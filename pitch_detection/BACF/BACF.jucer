@@ -4,6 +4,8 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="eUWoaj" name="BACF">
     <GROUP id="{AD2F85C7-C87C-3C60-E6E5-A97BF0E30571}" name="Source">
+      <FILE id="Pb4Ore" name="BACF.cpp" compile="1" resource="0" file="Source/BACF.cpp"/>
+      <FILE id="zWideV" name="BACF.h" compile="0" resource="0" file="Source/BACF.h"/>
       <FILE id="XpE6lz" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="FMAVVx" name="PluginProcessor.h" compile="0" resource="0"
